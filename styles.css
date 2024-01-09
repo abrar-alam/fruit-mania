@@ -14,7 +14,7 @@ body {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: white; /* Set a solid background color for the content area */
+    background-color: #ffcc00; /* Set a solid background color for the content area */
     border-radius: 10px; /* Add rounded corners for a visually appealing look */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
 
@@ -30,6 +30,7 @@ body {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
+    background: linear-gradient(to left, #ffcc00, #ff6699);
     border-radius: 5px;
     /* AA: newly added to horizontaly align */
     margin-top: 20px; /* Add some top margin for spacing */
@@ -46,6 +47,19 @@ body {
     padding: 0;
     margin: 10px 0 0 0;
   }
+
+  li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #eee; /* Default background color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+  }
+
+/* Hover effect */
+  li:hover {
+    background-color: #66b2ff; /* New background color on hover */
+  }
   
-  /* Add additional styles as needed for your specific layout and components */
+  
   
