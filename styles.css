@@ -1,6 +1,4 @@
-/* styles.css */
-
-body {
+  body {
     /* Set the gradient background for the entire page */
     background: linear-gradient(to right, #ffcc00, #ff6699);
     /* You can adjust the colors and direction as needed */
@@ -9,8 +7,7 @@ body {
     font-family: 'Arial', sans-serif; /* Set a default font family */
   }
   
-  #appContainer {
-    /* Add styles for your app container */
+  #app-container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -20,11 +17,11 @@ body {
 
     /* AA: newly added to horizontaly align */
     display: flex;
-  flex-direction: column;
-  align-items: center; /* Horizontal center alignment */
+    flex-direction: column;
+    align-items: center; /* Horizontal center alignment */
   }
   
-  #searchInput {
+  #search-input {
     /* Add styles for your search input */
     width: 100%;
     padding: 10px;
@@ -41,7 +38,7 @@ body {
     margin-top: 20px; 
   }
   
-  #suggestionList {
+  #suggestion-list {
     /* Add styles for your suggestion list */
     list-style-type: none;
     padding: 0;
