@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    /* Set the gradient background for the entire page */
+    background: linear-gradient(to right, #ffcc00, #ff6699);
+    /* You can adjust the colors and direction as needed */
+    /* The example uses a gradient from yellow (#ffcc00) to pink (#ff6699) from left to right */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Set a default font family */
+  }
+  
+  #appContainer {
+    /* Add styles for your app container */
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffcc00; /* Set a solid background color for the content area */
+    border-radius: 10px; /* Add rounded corners for a visually appealing look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+
+    /* AA: newly added to horizontaly align */
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontal center alignment */
+  }
+  
+  #searchInput {
+    /* Add styles for your search input */
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: linear-gradient(to left, #ffcc00, #ff6699);
+    border-radius: 5px;
+    /* AA: newly added to horizontaly align */
+    margin-top: 20px; /* Add some top margin for spacing */
+
+    }
+  
+  #search-button {
+    margin-top: 20px; 
+  }
+  
+  #suggestionList {
+    /* Add styles for your suggestion list */
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+
+  li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #eee; /* Default background color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+  }
+
+/* Hover effect */
+  li:hover {
+    background-color: #66b2ff; /* New background color on hover */
+  }
+  
+  
+  
