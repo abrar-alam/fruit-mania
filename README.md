@@ -12,7 +12,7 @@ HTML, CSS, and JavaScript (ES2015)
 ## Development plan:
 This implementation uses vanilla JavaScript. That being said, seperate backend, frontend, and more efficient search algorithm will be implemented in the coming days
 
-# Running the app:
+## Running the app:
 Just open "index.htm" in google chrome
 
 ## Demo:
